@@ -23,7 +23,7 @@ const elementVideoList = document.getElementById('vid-list');
 elementVideoList.innerHTML = "";
 elementVideoList.style.width = "" + playList.length * 168 + "px";
 playList.forEach((videID, index) => {
-    elementVideoList.innerHTML += "<div id=\"video_" + index + "\" class=\"vid-item\" onClick=\"document.getElementById(\'vid_frame\').src=\'http://youtube.com/embed/" + videID[0] + "?autoplay=1&mute=1&enablejsapi=1\'\"><div class=\"thumb\"><img src=\"https://img.youtube.com/vi/" + videID[0] + "/2.jpg\"></div><div class=\"desc\">" + videID[1] + "</div></div>";
+    elementVideoList.innerHTML += "<div id=\"video_" + index + "\" class=\"vid-item\" onClick=\"document.getElementById(\'vid_frame\').src=\'https://youtube.com/embed/" + videID[0] + "?autoplay=1&mute=1&enablejsapi=1\'\"><div class=\"thumb\"><img src=\"https://img.youtube.com/vi/" + videID[0] + "/2.jpg\"></div><div class=\"desc\">" + videID[1] + "</div></div>";
 });
 
 
