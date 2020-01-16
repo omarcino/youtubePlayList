@@ -1,27 +1,142 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <!-- The player -->
-    <div class="vid-container">
-        <iframe id="vid_frame" width="560" height="315" src="https://www.youtube.com/embed/eg6kNoJmzkY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <title>NIRVANA</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/03ac8c86ac.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- start seader -->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #000000;">
+            <a class="navbar-brand" href="#">
+                <img src="img/nirvana-logo.png" width="173" height="54" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT</a>
+                 </li>
+              </ul>
+              &nbsp;&nbsp;
+              <span class="navbar-text">
+                <span id="fontawesome">
+                    <i class="fab fa-facebook fa-2x"></i>&nbsp;&nbsp;
+                    <i class="fab fa-youtube fa-2x"></i>&nbsp;&nbsp;
+                    <i class="fab fa-instagram  fa-2x"></i>&nbsp;&nbsp;
+                </span>
+              </span>
+
+            </div>
+          </nav>
     </div>
+    <!-- end navbar -->
 
-    <!-- The playlist -->
-    <div class="vid-item">
-        <div class="thumb">
-            <img src="https://img.youtube.com/vi/eg6kNoJmzkY/2.jpg">
+    <!-- start youtube video -->
+    <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-12 col-lg-8">
+        <!-- 16:9 aspect ratio -->
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe id="vid_frame" class="embed-responsive-item"  width="900" height="506" src="https://www.youtube.com/embed/I_a0qNp9xxc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="desc">
-            Jessica Hernandez & the Deltas - Dead Brains
-        </div>
+        <div class="col"></div>
       </div>
+    </div>
+   <!-- end youtube video -->
 
+   <!-- start image scrolling -->
+   <div class="container">
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-12 col-lg-8">
+                    <!-- The playlist -->
+            <div class="vid-list-container">
+              <div class="vid-list" id="vid-list">
+                  <div  id="video_1" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/eg6kNoJmzkY/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+                  <div id="video_2" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/9aRCqlYQm5I/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+                  <div id="video_3" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/GRxYvfKa4a4/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+                  <div id="video_4" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/Q8-D30wuN4s/2.jpg"></div>
+                      <div class="desc">Introducing Sheldon Cooper</div>
+                  </div>
+                  <div id="video_5" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/ZwQvDca_3eE/2.jpg"></div>
+                      <div class="desc">The Pink Bunny vs Doodie</div>
+                  </div>
+                  <div id="video_6" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/eldrz4g72-4/2.jpg"></div>
+                      <div class="desc">Do Not Speak Ill of the Dead</div>
+                  </div>
+                  <div id="video_7" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/GRxYvfKa4a4/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+                  <div id="video_8" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/GRxYvfKa4a4/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+                  <div id="video_9" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/GRxYvfKa4a4/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+                  <div id="video_10" class="vid-item">
+                      <div class="thumb"><img src="https://img.youtube.com/vi/GRxYvfKa4a4/2.jpg"></div>
+                      <div class="desc">Jessica Hernandez & the Deltas - Dead Brains</div>
+                  </div>
+              </div></div>
 
-</body>
+              <!-- Arrows -->
+              <div class="arrows">
+                  <div class="arrow-left">
+                      <i class="fas fa-chevron-left fa-2x"></i>
+                  </div>
+                  <div class="arrow-right">
+                      <i class="fas fa-chevron-right fa-2x"></i>
+                  </div>
+              </div>
+        </div>
+        <div class="col"></div>
+      </div>
+   </div>
+   <!-- end image scrolling -->
+   
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- My javascript code -->
+    <script src="js/script.js"></script>
+  </body>
 </html>
